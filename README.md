@@ -4,6 +4,19 @@
 A Piauian social network made by friends🫂
 
 This repository contains the frontend of the project, made in React.
+
+## Technologies
+
+The following tools were used to develop the project
+
+
+- [Node.js](https://nodejs.org/en/) - version >18.x (22.x current working)
+- [React](https://18.react.dev/) - version 18.2
+- [Typescript](https://www.typescriptlang.org/) - version 5.2
+- [Tailwind](https://v3.tailwindcss.com/) - version 3.4
+- [React Router](https://reactrouter.com/home) - version 6.2
+- [shadcn/ui](https://ui.shadcn.com/)
+
 ## Versions
 
 This project branchs are complicated. Basically they define three project variatons:
@@ -67,4 +80,3 @@ Frontend team:
 <a href="https://github.com/bianca-bezerra/Laboras/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=bianca-bezerra/Laboras" />
 </a>
-
