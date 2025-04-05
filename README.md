@@ -76,6 +76,7 @@ Frontend team:
   <img src="https://contrib.rocks/image?repo=bianca-bezerra/Laboras" />
 </a>
 <br>
+<br>
 
 Backend team:
 
