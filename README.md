@@ -3,35 +3,36 @@
 
 A Piauian social network made by friends🫂
 
-This repository contains the frontend of the project, made in React.
+This repository contains the frontend of the project, built with React.
 
 ## Technologies
 
-The following tools were used to develop the project
+The following tools were used to develop this project
 
 
-- [Node.js](https://nodejs.org/en/) - version >18.x (22.x current working)
 - [React](https://18.react.dev/) - version 18.2
+- [Vite](https://v5.vite.dev/) - version 5.2
 - [Typescript](https://www.typescriptlang.org/) - version 5.2
 - [Tailwind](https://v3.tailwindcss.com/) - version 3.4
 - [React Router](https://reactrouter.com/home) - version 6.2
 - [shadcn/ui](https://ui.shadcn.com/)
+- [Node.js](https://nodejs.org/en/) - version >18.x (22.x current working)
 
 ## Versions
 
 This project branchs are complicated. Basically they define three project variatons:
 
-`main, dev`: Primary version of Laboras, made to work with the [original backend on DRF](https://github.com/ryofac/rede-social-django-rest). Relatively a litte out of date and broken, but in the future, will go back as main version.
+`main, dev`: Primary version of Laboras, designed to work with the [original DRF backend](https://github.com/ryofac/rede-social-django-rest). It's currently somewhat outadated and partially broken, but will return as the main version in the future.
 
-`next-api`: Second version of Laboras, made to work with the [backend of Next.js fullstack flavor](https://github.com/msruan/next-api). Out of date at the same point as primary version, and maybe broken. Current depreciated, because Next.js has a separeted frontend.
+`next-api`: A second version of Laboras, developed to integrate with the [Next.js fullstack backend](https://github.com/msruan/next-api). It is as outdated as the primary version and potentially broken. This version is currently deprecated since Next.js flavor now has its own separate frontend.
 
-`neo, neo-dev`: Third and current the last version of Laboras, made to work with the [new FastAPI-Neo4j backend](https://github.com/ryofac/rede_social_fast_neo4j.git). Current the active version, with some new features like celebrations. Its most updated branch is _neo-dev_. 
+`neo, neo-dev`: The last and currently active version of Laboras, built to work with the [FastAPI-Neo4j backend](https://github.com/ryofac/rede_social_fast_neo4j.git). This version introduce new features such as celebrations. The most up-to-date branch is _neo-dev_. 
 ## Features
 
-- Posts CRUD
-- Profiles, follow users
-- Configs
-- Celebrations
+- CRUD for posts
+- Users profiles and follow system
+- User settings
+- Celebrations system
 
 
 ## Run Locally
