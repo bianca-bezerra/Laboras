@@ -49,7 +49,7 @@ Go to the project directory
 cd Laboras
 ```
 
-Switch to current active version
+Switch to the current active version
 
 ```bash
 git switch neo-dev
