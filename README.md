@@ -76,8 +76,7 @@ Frontend team:
   <img src="https://contrib.rocks/image?repo=bianca-bezerra/Laboras" />
 </a>
 <br>
-Backend team:
-
+Backend team:<br>
 <a href="https://github.com/ryofac/rede-social-django-rest/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=ryofac/rede-social-django-rest&max=4" />
 </a>
