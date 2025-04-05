@@ -70,14 +70,14 @@ npm run dev
 
 ## Authors
 
-Backend team:
-
-<a href="https://github.com/ryofac/rede-social-django-rest/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=ryofac/rede-social-django-rest&max=4" />
-</a>
-
 Frontend team:
 
 <a href="https://github.com/bianca-bezerra/Laboras/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=bianca-bezerra/Laboras" />
+</a>
+<br>
+Backend team:
+
+<a href="https://github.com/ryofac/rede-social-django-rest/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=ryofac/rede-social-django-rest&max=4" />
 </a>
