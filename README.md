@@ -1,37 +1,70 @@
-A React project of a social network...
 
-#### Todo
+# Laboras
 
-##### Components
+A Piauian social network made by friends🫂
 
-- [OK] Profile
-- [OK] Post
-- [OK] Follower
-- [OK] TextBox
-- [OK] MainPosts
-- [OK] AsideMyProfile
-- [OK] AsideFollowers
+This repository contains the frontend of the project, made in React.
+## Versions
 
-##### Others
+This project branchs are complicated. Basically they define three project variatons:
 
-- Depois, tirar o fetch em profile de dentro de AsideMyProfile e deixar IProfile já como prop em App.tsx
-- Consertar textarea do TextBox (trocar por uma autosize textarea)
+`main, dev`: Primary version of Laboras, made to work with the [original backend on DRF](https://github.com/ryofac/rede-social-django-rest). Relatively a litte out of date and broken, but in the future, will go back as main version.
 
-##### Extra
+`next-api`: Second version of Laboras, made to work with the [backend of Next.js fullstack flavor](https://github.com/msruan/next-api). Out of date at the same point as primary version, and maybe broken. Current depreciated, because Next.js has a separeted frontend.
 
-- Usuarios online?
-- Chat
-- Bloqueio de perfis, perfil público x privado
+`neo, neo-dev`: Third and current the last version of Laboras, made to work with the [new FastAPI-Neo4j backend](https://github.com/ryofac/rede_social_fast_neo4j.git). Current the active version, with some new features like celebrations. Its most updated branch is _neo-dev_. 
+## Features
 
-##### GIFS
+- Posts CRUD
+- Profiles, follow users
+- Configs
+- Celebrations
 
-- https://giphy.com/stickers/ssm-bysecond-songgsongmeow-NMGMrnJpelTIMNVJVY
-- https://giphy.com/stickers/fireworks-transparency-NxpMNq17Y2Khq
-- https://giphy.com/stickers/sparkle-fireworks-firework-6d7r0dwU2J91guI7x2
-- https://giphy.com/stickers/anajohnson2019-ana-johnson-anajohnson-gif-3rZRFcAetsL71sFKAz
-- https://giphy.com/stickers/Studiokapel-fireworks-independence-day-kapel-Q7qAHcQmvfN8JWVPGd
-- https://giphy.com/stickers/OlySheet-transparent-EEYSW45kVtJQ6BiatW
-- https://giphy.com/stickers/istitutoburgobrasil-happy-new-year-ano-novo-2025-ldFdlMJaHDf7u87SJi
-- https://uiverse.io/kennyotsu/fresh-lizard-20
-- https://www.youtube.com/watch?v=z6j7lXN3_eI
-- https://www.youtube.com/watch?v=mHa36Dso28I
+
+## Run Locally
+
+Clone the project
+
+```bash
+git clone https://bianca-bezerra/Laboras
+```
+
+Go to the project directory
+
+```bash
+cd Laboras
+```
+
+Switch to current active version
+
+```bash
+git switch neo-dev
+```
+
+Install dependencies
+
+```bash
+npm i
+```
+
+Run the development server
+
+```bash
+npm run dev
+```
+
+
+## Authors
+
+Backend team:
+
+<a href="https://github.com/ryofac/rede-social-django-rest/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=ryofac/rede-social-django-rest&max=4" />
+</a>
+
+Frontend team:
+
+<a href="https://github.com/bianca-bezerra/Laboras/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=bianca-bezerra/Laboras" />
+</a>
+
